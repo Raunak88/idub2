@@ -1,0 +1,71 @@
+.heroContainer {
+  position: relative;
+}
+
+.heroDesc {
+  position: absolute;
+  height: 215px;
+  width: 234.02655029296875px;
+  left: 32px;
+  top: 75px;
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 0.78);
+  fill: #faf4ef;
+  backdrop-filter: blur(5px);
+  text-align: left;
+}
+
+.heroImg {
+  background: url("../../assets/hero.png");
+  width: 537.62px;
+  height: 365px;
+  border-bottom-left-radius: 60px;
+  margin-left: 98px;
+  background-size: contain;
+}
+
+@media (min-width: 768px) {
+  .heroImg {
+    height: 417.8333435058594px;
+    width: 615.25px;
+    margin-left: 30em;
+  }
+
+  .heroDesc {
+    height: 288.77777099609375px;
+    width: 314.3333435058594px;
+    margin-left: 20em;
+    margin-top: 6em;
+  }
+
+  .heroTitle {
+    font-family: DM Serif Display;
+    font-size: 41px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .heroCaption {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .coloredBanner {
+    height: 207px;
+    width: 591px;
+    left: 664px;
+    top: 69px;
+    border-radius: 0px;
+    position: absolute;
+    background-color: #faf4ef;
+    z-index: -1;
+  }
+}
